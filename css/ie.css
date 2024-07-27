@@ -1,0 +1,58 @@
+.sf-menu ul,.sf-menu ul ul,.pagination-text,.banner-link {
+	behavior: url(js/PIE.htc);
+}
+
+.pag4,#search input,.banner-link strong,.box2,.box2 a,.box3,.letter,#form1 input,#form1 textarea
+	{
+	behavior: url(js/PIE.htc);
+	position: relative;
+}
+
+.box2 div span,h4,h2 {
+	letter-spacing: -1px;
+}
+
+.copyright a.policy {
+	letter-spacing: 0;
+}
+
+.copyright {
+	letter-spacing: 1px;
+}
+
+.banner-link {
+	padding: 4px 5px 6px 13px;
+}
+
+.banner-link strong {
+	margin-top: 1px;
+}
+
+.box2 strong {
+	width: 320px;
+	letter-spacing: -1px;
+}
+
+.box2 a {
+	width: 158px;
+	letter-spacing: -1px;
+}
+
+*:first-child+html .banner-link {
+	padding: 6px 28px 5px 13px;
+}
+
+*:first-child+html .banner-link strong {
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+*:first-child+html #form1 {
+	padding-top: 22px;
+}
+
+*:first-child+html .buttons {
+	padding: 20px 0 31px;
+}

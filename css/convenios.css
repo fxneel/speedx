@@ -1,0 +1,9 @@
+	#tbl-convenios{
+		display: block;
+		padding: 10px;
+	}
+	#tbl-convenios td{
+		width: 235px;
+		font-size: 11px;
+		text-align: center;	
+	}

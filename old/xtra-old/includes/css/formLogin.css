@@ -1,0 +1,117 @@
+fieldset{
+	width: 500px;
+	border: none;
+}
+
+fieldset#login{
+	width: 250px;
+	background-image: linear-gradient(to bottom, #ffffff, #e8e8e8 150%);
+	border: 1px solid #ccc;
+}
+
+fieldset legend{
+	font: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #006633;
+}
+
+fieldset span{
+	font: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 10px;
+	color: #ccc;
+	position: absolute;
+	right: 0;	
+}
+
+label{
+	display: block;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	width: 240px;
+	float: left;
+	position: relative;
+	padding-left: 10px;
+}
+
+#btCadastro {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size:12px;
+	width:100px;
+	height: 25px;
+	background: #6593CE;
+  	position: relative;
+  	float: right;
+	margin:0px;
+	color:white;
+	font-weight:bold;
+	
+}
+input {
+  border:1px solid #ccc;
+  font-size:18px;
+  width:240px;
+  min-height:30px;
+  margin-bottom:15px;
+  outline: none;
+  letter-spacing: 1px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;
+}
+
+input:focus{
+	border: 1px dotted green;
+	background: #FDFFEF;
+}
+
+#btnSubmit{
+  background: #ECE9D8;
+  right:0px;
+  margin-top: 20px;
+  height: 30px;
+  position: relative;
+  float: right;
+}
+
+#btnLogin{
+  background: #ECE9D8;
+  right:0px;
+  margin-top: 10px;
+  height: 30px;
+  position: relative;
+  float: right;
+}
+
+#frmContato textarea{
+	border:1px solid #ccc;
+	outline: none;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 7px 10px 7px 14px;
+    resize: none;
+    text-transform: uppercase;
+    width: 240px;
+	height: 50px;
+	font-size: 10px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;
+}
+
+#frmContato select{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	border:1px solid #ccc;
+	outline: none;
+	width:240px;
+    padding: 5px;
+	height: 30px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;
+}

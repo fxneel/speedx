@@ -1,0 +1,67 @@
+form {
+	width: auto;
+	margin: 10px auto;
+}
+
+fieldset {
+	border-radius: 5px;
+    width: 265px;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	padding: 15px;
+	background-color: #F0F8FF;
+}
+
+fieldset legend {
+	font: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #006633;
+}
+
+fieldset span {
+	font: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 10px;
+	color: #ccc;
+	position: absolute;
+	right: 0;
+}
+
+label {
+	display: block;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	width: 240px;
+	float: left;
+	position: relative;
+	padding-left: 10px;
+}
+
+input {
+	border: 1px solid #ccc;
+	font-size: 18px;
+	width: 240px;
+	min-height: 30px;
+	margin-bottom: 15px;
+	outline: none;
+	letter-spacing: 1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+select{
+	font-size: 14px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	border:1px solid #ccc;
+	outline: none;
+	width:240px;
+    padding: 5px;
+	height: 30px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;
+}

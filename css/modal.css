@@ -1,0 +1,28 @@
+#mascara {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+
+.fechar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+}
+
+.window {
+	display: none;
+	width: 261px;
+	height: 440px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #FFF;
+	z-index: 9900;
+	padding: 10px;
+	border-radius: 10px;
+}

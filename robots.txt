@@ -1,0 +1,10 @@
+# robots.txt Ferramenta para bloquear determinados diretórios do site ou # crawlers de busca.
+User-agent: Googlebot
+Disallow: 
+User-agent: Googlebot-Image
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: *
+Disallow: 
+Disallow: /img

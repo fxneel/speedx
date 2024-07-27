@@ -1,0 +1,1 @@
+Cufon.replace('.pagination li a, .link1, .banner-link, .pagination-text', { fontFamily: 'Lato Black',hover:true });
